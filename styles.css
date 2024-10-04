@@ -1,0 +1,56 @@
+.wrapper{
+    background-color: #CFB991;
+    height: 800px;
+    width:1100px;
+    border: 2px solid black;
+}
+
+.pin {
+    width: 275px;
+    height: 300px;
+    border-radius: 15px;
+    border: 3px solid rgb(0, 0, 0);
+    background-image: url("./pictures/indianapolis.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.pin h2 {
+    background-color: #8E6F3E;
+    border-radius: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pin li {
+    background-color: rgb(234, 232, 228);
+    border-radius: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.slide-animation {
+    animation-duration: 15s;  
+    animation-iteration-count: infinite;
+  }
+  
+  .dancing_logo {
+    animation-name: slide;
+    animation-timing-function: ease-in-out;
+  }
+  
+  .dancing_pete {
+    position: absolute;
+    right: 20px; 
+    top: 0; 
+    background-image: url(./pictures/purdue-university-pete8250.logowik.com.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-duration: 15s;
+    animation-name: slide-vertical; 
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes slide-vertical {
+    from { top: 0; }
+    to { top: 70%; } 
+  }

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ad for Purdue CIT</title>
+    <link rel= "stylesheet" href= "styles.css">
+    <style>
+        .perks{
+            width: 275px;
+            height: 300px;
+            background-image: url(./pictures/iupui.jpeg)
+            
+        }
+        .display{
+            background-image: url(./pictures/laboratory.avif)
+        }
+
+        .purdue{
+            background-image: url(./pictures/indycanal.jpg)
+        }
+
+        .opportunities{
+            background-image: url(./pictures/salesforce.webp);
+        }
+
+
+        .dancing_logo{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        bottom: 20px;
+        background-image:url(./pictures/purdue-university8021.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        animation-duration: 15s;
+        animation-name: slide;
+        animation-iteration-count: infinite;
+        }
+
+        .dancing_pete{
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        bottom: 20px;
+        background-image:url(./pictures/purdue-university-pete8250.logowik.com.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        animation-duration: 15s;
+        animation-name: slide-vertical;
+        animation-iteration-count: infinite;
+        }
+            
+        @keyframes slide {
+        from { left: 0; }
+        to {left: 55%; }
+
+        }
+    </style>
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="pin display" style="top:20px; left:40px;">
+            <h2>Why CIT?</h2>
+            <ul>
+                <li>Help fight crime or run a corporation</li>
+                <li>CIT professionals are needed to keep systems running</li>
+            </ul>
+        </div>
+        <div class="pin perks" style="top: 20px; left: 400px;">
+            <h2>What does it look like for me?</h2>
+            <ul>
+                <li>Gain real world experience and networking</li>
+                <li>Specialize with course work tailored to your preference</li>
+                <li>Lots of updated courses such as cyber forensics</li>
+            </ul>
+        </div>
+        <div class="pin purdue" style="top: 20px; left: 750px;">
+            <h2>Purdue Indianapolis</h2>
+            <ul>
+                <li>Purdue is commited to create a thriving hub</li>
+                <li>Inidanapolis is a vibrant welcoming city</li>
+                <li>The city hosts most of the biggest employers</li>
+            </ul>
+        </div>
+        <div class="pin opportunities" style=" top: 350px; left: 40px;">
+            <h2>Opportunities for students</h2>
+            <ul>
+                <li>Join the information sessions each week</li>
+                <li>Schedule a prospective student college visit</li>
+                <li>Visit Purdue Website for more information</li>
+            </ul>
+        </div>
+        <div class="pin" style="top: 350px; left: 400px;">
+            <h2>For what companies could I work for?</h2>
+            <ul>
+                <li>JP Morgan Chase</li>
+                <li>Microsoft</li>
+                <li>IBM</li>
+            </ul>
+        </div>
+        <div class="dancing_logo"></div>
+        <div class="dancing_pete"></div>
+    </div>
+</body>
+</body>
+</html>
